@@ -1,0 +1,3 @@
+Order_Type,Orders,Order_Share_%,Avg_Quantity,Total_Quantity,Volume_Share_%,Avg_Selling_Price,Avg_Revenue,Total_Revenue,Revenue_Share_%,Avg_Contribution_Margin,Total_Contribution_Margin,Margin_Share_%,Avg_Margin_Percentage
+Non-Discounted,15546,31.09,3.04,47310,27.0,5830.45,10215.18,158805265.0,30.11,9966.51,154939346.79,30.09,94.17
+Discounted,34454,68.91,3.71,127887,73.0,4682.4,10701.11,368695998.93,69.89,10450.51,360062031.76,69.91,94.55

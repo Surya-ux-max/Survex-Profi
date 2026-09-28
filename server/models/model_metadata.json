@@ -1,0 +1,30 @@
+{
+    "model_name": "Ecommerce Discount Linear Regression Pipeline",
+    "model_class": "sklearn.pipeline.Pipeline",
+    "estimator": "sklearn.linear_model.LinearRegression",
+    "target_column": "Contribution_Margin",
+    "feature_columns": [
+        "Original_Price",
+        "Discount",
+        "Product_Category",
+        "Promotion_Period"
+    ],
+    "numerical_features": [
+        "Original_Price",
+        "Discount"
+    ],
+    "categorical_features": [
+        "Product_Category",
+        "Promotion_Period"
+    ],
+    "training_samples": 40000,
+    "testing_samples": 10000,
+    "metrics": {
+        "MAE": 4565.02,
+        "RMSE": 10496.63,
+        "R2": 0.7059
+    },
+    "random_state": 42,
+    "training_timestamp": "2026-09-28T14:37:57.767346",
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]"
+}

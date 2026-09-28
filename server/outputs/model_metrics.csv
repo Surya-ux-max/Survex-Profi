@@ -1,0 +1,4 @@
+Metric,Value,Interpretation
+MAE (Mean Absolute Error),"Rs 4,565.02",Average prediction error magnitude per order
+RMSE (Root Mean Squared Error),"Rs 10,496.63",Penalizes large outlier margin errors
+R-squared (R²),0.7059,70.59% of contribution margin variance explained by features
